@@ -23,11 +23,11 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
-x = str(input("Enter a word: "))
-y = str(input("Enter a word: "))
-z = str(input("Enter a word: "))
-a = str(input("Enter a word: "))
-b = str(input("Enter a word: "))
+x = str(input("Enter a word: ")).strip()
+y = str(input("Enter a word: ")).strip()
+z = str(input("Enter a word: ")).strip()
+a = str(input("Enter a word: ")).strip()
+b = str(input("Enter a word: ")).strip()
 
 l = []
 
